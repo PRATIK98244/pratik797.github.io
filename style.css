@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    /* position:fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: rgb(41, 113, 149);
+    cursor: default;
+}
+.navbar a
+{
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .2s ease all;
+}
+.navbar a:hover{
+    color:rgb(8, 79, 81) ;
+}
+.btn-cv
+{
+    color:rgb(13, 106, 129);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 35px;
+    background:transparent ;
+    border-radius: 10px;
+    border: 2px solid rgb(13, 106, 129);
+    font-weight: 500;
+    transition: .2s ease;
+}
+.btn-cv:hover
+{
+    color: rgb(197, 209, 211);
+    background:rgb(13, 106, 129);
+}
+.home
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content
+{
+    max-width: 500px;
+    color: black;
+    margin-bottom: 150px;
+}
+.content h2
+{
+  font-size: 3em;
+}
+.content h2 span
+{
+    color: rgb(9, 90, 85);
+}
+.content h4
+{
+    font-size: 2em;
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.btn-grp a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 15px;
+    background:rgb(7, 125, 123);
+    border-radius: 10px;
+    border: 2px solid rgb(7, 125, 123);
+    font-weight: 500;
+    transition: .2s ease;
+}
+.btn-grp a:hover:nth-child(1)
+{
+    color:rgb(23, 131, 131) ;
+    background-color: aliceblue;
+}
+
+.btn-grp a:nth-child(2)
+{
+    color: rgb(23, 131, 131);
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-grp a:hover:nth-child(2)
+{
+    color: aliceblue;
+    background-color:rgb(23, 131, 131) ;
+}
+.social
+{
+    position:absolute;
+    bottom: 170px ;
+}
+.social a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background:rgb(23, 131, 131);
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid white;
+    outline: 2px solid rgb(23, 131, 131); 
+    transition: .2s ease;
+}
+.social a:hover{
+    transform: translateY(-5px);
+}
+.social a i{
+    color: aliceblue;
+}
+/* projects */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#main
+{
+    height: 760px;
+    animation: 2s bounceInRight ;
+}
+
+.head 
+{
+    color: rgb(28, 58, 85);
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size:20px;
+    margin-left: 570px;
+    
+}
+.btn
+{
+    margin-top: 100px;
+}
+.btn a{
+    color: rgb(7, 125, 123);
+    margin-left: 35px;
+    margin-top: 140px;
+    text-decoration: none;
+    padding: 10px 35px;
+    font-size: 15px;
+    background:aliceblue;
+    border-radius: 10px;
+    border: 2px solid rgb(7, 125, 123);
+    font-weight: 500;
+    transition: .2s ease;
+ 
+}
+.btn a:hover{
+    color:aliceblue ;
+    background-color:rgb(8, 29, 47);
+    overflow-y: hidden;
+}
+/* contact */
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+    margin-top: -400px;
+    margin-left: 500px;
+    padding: 150px;
+}
+.contact-left p{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.contact-left p i{
+    color: rgb(7, 125, 123);
+    margin-right: 5px;
+    font-size: 20px;
+}
+.contact-left h1
+{
+    margin-left:250px ;
+    margin-top: -235px;
+    font-size: 55px;
+    color:rgb(7, 125, 123);
+}
+form input,form textarea{
+    width: 100%;
+    border: 2px solid black;
+    background:transparent;
+    padding: 15px;
+    margin: 15px 0px;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
